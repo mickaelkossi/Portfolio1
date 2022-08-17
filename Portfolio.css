@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.home{
+    background-image: url('https://cdn.futura-sciences.com/buildsv6/images/wide1920/8/8/1/881415294f_50170557_code-html-sashkin-adobe-stock.jpg');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar{
+    background-color: #1D0C4F;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.about{
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about:hover{
+    transition-delay: 1s;
+    transition-property: margin-top;
+}  
+
+.container1{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.titre{
+    color: white;
+    padding-bottom: 50px;
+    overflow: hidden;
+    text-align: center;
+    border-right: .10em solid white;
+    white-space: nowrap;
+    animation: typing 2.5s steps(25, end) forwards, blinking .8s infinite;
+    font-size: 65px;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: white; }
+  }
+
+  .photomoi{
+      height: 400px;
+      width: 340px;
+      border-radius: 250px 250px 250px 250px;
+      margin-bottom: 50px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      transition-duration: 2s;
+  }
+
+  .photomoi:hover{
+      height: 600px;
+      width: 530px;
+      transition-duration: 2s;
+  }
+    
+.titre_partie{
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+
+
+.photoecole{
+    height: 650px;
+    width: 350px;
+    padding-top: 200px;
+    transition-duration: 1s;
+}
+
+.photoecole:hover{
+    height: 750px;
+    width: 450px;
+    transition-duration: 1s;
+}
+
+
+
+.parcours{
+    display: flex;
+    flex-direction: column;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    justify-content: space-evenly;
+}
+
+.bloc_ecole{
+    width: 700px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+.trait{
+    border-right: 1px solid black;
+    height: 730px;
+}
+
+.bloc_parcours{
+    padding-top: 30px;
+    
+}
+
+span{
+    font-size: 30px;
+}
+
+.skills{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoskills{
+    height: 490px;
+    width: 320px;
+    padding-top: 200px;
+    transition-duration: 1s;
+}
+
+.photoskills:hover{
+    transition-duration: 1s;
+    height: 550px;
+    width: 400px;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    justify-content: space-evenly;
+}
+
+.competences{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+   padding-top: 40px;
+}
+
+.skills1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
+
+.skills2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.skills img{
+    
+    height: 130px;
+    width: 120px;
+    
+}
+
+.projet{
+    height: 450px;
+    width: 350px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+
+
+.projets{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    justify-content: space-evenly;
+    
+}
+
+.projet img{
+    height: 450px;
+    width: 350px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+
+.projet p{
+    padding-top: 10px;
+    text-decoration: underline;
+    
+}
+
+.bloc_contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+
+.titre_contacts{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.bloc_contacts img{
+    height: 40px;
+    width: 40px;
+}
+
+.bloc_contacts a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.container5{
+    width: 40%;
+    border: 3px solid #1D0C4F;
+    border-radius: 10%;
+    height: 21em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.1em;
+    font-size: 20px;
+}
+
+.cv img{
+    height: 40em;
+    width: auto;
+    transition-duration: 1s;
+}
+
+.cv_flex{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cv img:hover{
+    height: 60em;
+    transition-duration: 1s;
+}
+
+
